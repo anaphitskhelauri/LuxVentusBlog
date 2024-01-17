@@ -69,12 +69,28 @@ html {
   background-image: url(./assets/logo\ background.png);
   background-repeat: no-repeat;
   background-position: right center;
+  transition: 0.3s;
+}
+
+.logo a:hover {
+  transition: 0.3s;
+  font-size: 38px;
+  color: black;
 }
 #con {
   background: #4ce0d7;
   padding: 10px 40px;
   transition: 0.3s;
   border-radius: 40px;
+}
+
+.search a img:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
+}
+
+.search a img {
+  transition: 0.3s;
 }
 
 /* section-one  */
@@ -206,7 +222,6 @@ html {
 .card a:hover {
   transition: 0.3s;
   transform: translateY(-5px);
-  background: #2c8f88;
 }
 
 .card img {
@@ -220,6 +235,11 @@ html {
   justify-content: center;
   margin-top: 87px;
   margin-bottom: 52px;
+}
+
+.card:hover {
+  background: #2c8f88;
+  transition: 0.3s;
 }
 
 /* section three */
@@ -287,6 +307,12 @@ html {
   width: 217px;
   height: 21px;
   flex-shrink: 0;
+  transition: 0.3s;
+}
+
+.first-line p:hover {
+  color: #262626;
+  transition: 0.3s;
 }
 
 .first-line span {
@@ -298,6 +324,12 @@ html {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 3.36px;
+  transition: 0.3s;
+}
+
+.first-line span:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
 }
 
 .second-line {
@@ -349,6 +381,15 @@ html {
 .read-more a:hover {
   transition: 0.3s;
   font-size: 15px;
+  transform: translateY(-5px);
+}
+
+.read-more img {
+  transition: 0.3s;
+}
+
+.read-more img:hover {
+  transition: 0.3s;
   transform: translateY(-5px);
 }
 
@@ -603,7 +644,9 @@ html {
 
 .footer-nav img:hover {
   transition: 0.3s;
-  transform: translateY(-5px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .footer-nav img {
