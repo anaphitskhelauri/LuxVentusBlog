@@ -614,7 +614,7 @@ html {
 .contacts {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 400px;
 }
 
@@ -652,3 +652,4 @@ html {
 .footer-nav img {
   transition: 0.3s;
 }
+
