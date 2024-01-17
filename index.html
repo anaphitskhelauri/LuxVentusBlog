@@ -18,14 +18,14 @@
         padding-top: 60px; /* Adjust this value to match the height of your header */
       }
   
-      .header {
+      /* .header {
         padding: 10px;
         color: white;
         position: fixed;
         width: 100%;
         top: 0;
         z-index: 100;
-      }
+      } */
   
       .content {
         padding: 20px;
@@ -34,35 +34,26 @@
 </head>
 
 <body>
-  <!-- Header -->
-  <section class="header">
-    
-
+  <!-- header -->
+  <div class="header">
     <div class="logo">
-      <a href="./index.html"> LUX VENTUS</a>
+      <a href="./index.html">LUX VENTUS</a>
     </div>
 
-    <div class="header-navigation">
-
-      <div class="navigation">
+    <div class="navigation">
+      <div class="nav">
         <a href="#">Fashion</a>
         <a href="#">Lifestyle</a>
         <a href="#">Spiritual</a>
         <a href="#">Mental Health</a>
-        <div class="contact-us">
-          <a href="#">Contact Us</a>
-        </div>
-
+        <a href="#contact" id="con">Contact Us</a>
       </div>
 
       <div class="search">
-        <a href="#">
-          <img src="./assets/search icon.png" alt="">
-        </a>
+        <a href="#"><img src="./assets/search icon.png" alt="" /></a>
       </div>
     </div>
-
-  </section>
+  </div>
 
 
   <main>
@@ -90,78 +81,243 @@
 
     <!-- section-two -->
     <div class="section-two">
-
       <div class="headline">
         <h2>Topics</h2>
       </div>
 
-<div class="all-topics">
-
-  <div class="card">
-    <img src="./assets/topics icons/lingerie-underwear.png" alt="">
-    <p>Lingerie</p>
-    <a href="#">View More</a>
-  </div>
-
-  <div class="card">
-    <img src="./assets/topics icons/spring.png" alt="">
-    <p>Spring</p>
-    <a href="#">View More</a>
-  </div>
-
-  <div class="card">
-    <img src="./assets/topics icons/yoga.png" alt="">
-    <p>Yoga</p>
-    <a href="#">View More</a>
-  </div>
-
-  <div class="card">
-    <img src="./assets/topics icons/glow.png" alt="">
-    <p>Glow</p>
-    <a href="#">View More</a>
-  </div>
-
-  <div class="card">
-    <img src="./assets/topics icons/ensembles.png" alt="">
-    <p>Ensembles</p>
-    <a href="#">View More</a>
-  </div>
-
-  <div class="card">
-    <img src="./assets/topics icons/skin care.png" alt="">
-    <p>Skin Care</p>
-    <a href="#">View More</a>
-  </div>
-
-</div>
-      <div class="line">
-        <img src="./assets/Vector 2.png" alt="">
-
+      <div class="all-topics">
+        <div class="card">
+          <img src="./assets/topics icons/lingerie-underwear.png" alt="" />
+          <p>Lingerie</p>
+          <a href="#">View More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/topics icons/spring.png" alt="" />
+          <p>Spring</p>
+          <a href="#">View More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/topics icons/yoga.png" alt="" />
+          <p>Yoga</p>
+          <a href="#">View More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/topics icons/glow.png" alt="" />
+          <p>Glow</p>
+          <a href="#">View More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/topics icons/ensembles.png" alt="" />
+          <p>Ensembles</p>
+          <a href="#">View More</a>
+        </div>
+        <div class="card">
+          <img src="./assets/topics icons/skin care.png" alt="" />
+          <p>Skin Care</p>
+          <a href="#">View More</a>
+        </div>
       </div>
-
+      <div class="line">
+        <img src="./Vector 2.png" alt="" />
+      </div>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- section-three -->
-    <div class="section-three"></div>
+    <div class="section-three">
+      <div class="fashion-button">
+        <a href="#">FASHION</a>
+      </div>
+      <div class="section-three-text">
+        <div class="first-line">
+          <img src="./assets/profile icon.png" alt="" />
+          <p>Mallory Reyn</p>
+          <p>April 14th, 2023</p>
+          <span>COMING IN HOT!</span>
+        </div>
+
+        <div class="second-line">
+          <h3>The Latest Trends from the Moon Fashion Week.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et
+            massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+            fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
+            vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum.
+          </p>
+          <div class="read-more">
+            <img src="./assets/arrow-small-right.png" alt="" />
+            <a href="#">READ MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- section-four -->
-    <div class="section-four"></div>
+    <div class="section-four">
+      <div class="headline">
+        <h2 id="four-headline">Trending</h2>
+      </div>
+
+      <div class="trending">
+        <div class="news">
+          <div class="button-one">
+            <a href="#">LIFESTYLE</a>
+          </div>
+
+          <div class="first-line">
+            <img src="./assets/profile icon.png" alt="" />
+            <p>Mallory Reyn</p>
+            <p>April 14th, 2023</p>
+          </div>
+
+          <div class="second-line">
+            <h3>10 Things to help you with social stress.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+              augue. Vestibulum.
+            </p>
+            <div class="read-more">
+              <img src="./assets/arrow-small-right.png" alt="" />
+              <a href="#">READ MORE</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="news">
+          <div class="button-two">
+            <a href="#">SUMMER</a>
+          </div>
+
+          <div class="first-line">
+            <img src="./assets/profile icon.png" alt="" />
+            <p>Mallory Reyn</p>
+            <p>April 14th, 2023</p>
+          </div>
+
+          <div class="second-line">
+            <h3>The summer 2023 lineup is finally here.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+              sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+              augue. Vestibulum.
+            </p>
+            <div class="read-more">
+              <img src="./assets/arrow-small-right.png" alt="" />
+              <a href="#">READ MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- section-five -->
-    <div class="section-five"></div>
+    <div class="section-five">
+
+      <div class="posts">
+          <div class="button-three">
+              <a href="#">FASHION</a>
+            </div>
+  
+            <div class="new-card">
+              <div class="first-line">
+                  <img src="./assets/profile icon.png" alt="" />
+                  <p>Mallory Reyn</p>
+                  <p>April 14th, 2023</p>
+                </div>
+      
+                <div class="second-line">
+                  <h3>5 Reasons to avoid shopping on saturdays</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+                    sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+                    augue. Vestibulum.
+                  </p>
+                  <div class="read-more">
+                    <img src="./assets/arrow-small-right.png" alt="" />
+                    <a href="#">READ MORE</a>
+                  </div>
+                </div>
+            </div>
+      </div>
+      <div class="posts">
+          <div class="button-four">
+              <a href="#">ENSEMBLES</a>
+            </div>
+  
+            <div class="new-card">
+              <div class="first-line">
+                  <img src="./assets/profile icon.png" alt="" />
+                  <p>Mallory Reyn</p>
+                  <p>April 14th, 2023</p>
+                </div>
+      
+                <div class="second-line">
+                  <h3>10 Brands that remained faithful to your classy look.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+                    sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+                    augue. Vestibulum.
+                  </p>
+                  <div class="read-more">
+                    <img src="./assets/arrow-small-right.png" alt="" />
+                    <a href="#">READ MORE</a>
+                  </div>
+                </div>
+            </div>
+      </div>
+      <div class="posts">
+          <div class="button-five">
+              <a href="#">MENTAL HEALTH</a>
+            </div>
+  
+            <div class="new-card">
+              <div class="first-line">
+                  <img src="./assets/profile icon.png" alt="" />
+                  <p>Mallory Reyn</p>
+                  <p>April 14th, 2023</p>
+                </div>
+      
+                <div class="second-line">
+                  <h3>Mental health tips to cope with stress.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet
+                    sapien fringilla, mattis mattis tellus. Nullam quis imperdiet
+                    augue. Vestibulum.
+                  </p>
+                  <div class="read-more">
+                    <img src="./assets/arrow-small-right.png" alt="" />
+                    <a href="#">READ MORE</a>
+                  </div>
+                </div>
+            </div>
+      </div>
+      
+      </div>
+
+
+    </div>
   </main>
   <!-- footer -->
-  <div class="footer"></div>
+  <div class="footer" id="contact">
+    <div class="contacts">
+        <div class="logo">
+            <a href="./index.html">LUX VENTUS</a>
+          </div>
+
+        <div class="footer-nav">
+            <h2>Let's Hang Out</h2>
+            <img src="./assets/footer icons/facebook.png" alt="">
+            <img src="./assets/footer icons/twitter.png" alt="">
+            <img src="./assets/footer icons/linkedin.png" alt="">
+            <img src="./assets/footer icons/youtube.png" alt="">
+            <img src="./assets/footer icons/instagram.png" alt="">
+        </div>
+    </div>
+    <div class="line">
+        <img src="./assets/Vector 2.png" alt="" />
+    </div>
+    <div class="by">
+        <p>© 2023 - Lux Ventus by Zine.E.Falouti</p>
+    </div>
+</div>
 </body>
 
 </html>
