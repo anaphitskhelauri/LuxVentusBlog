@@ -8,7 +8,7 @@
 main {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1340px;
+  max-width: 1440px;
 }
 
 html {
@@ -287,17 +287,22 @@ html {
 .first-line {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 360px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
   margin-top: 15px;
   margin-bottom: 29px;
 }
 
-.first-line img {
-  padding-left: auto;
+.profile img {
+  padding-left: 64px;
   padding-right: 14px;
 }
 
-.first-line p {
+.profile p {
   color: #bcbcbc;
   font-family: Poppins;
   font-size: 14px;
@@ -310,13 +315,12 @@ html {
   transition: 0.3s;
 }
 
-.first-line p:hover {
+.profile p:hover {
   color: #262626;
   transition: 0.3s;
 }
 
-.first-line span {
-  padding-left: 389px;
+.hot span {
   color: #f25e5e;
   font-family: Poppins;
   font-size: 14px;
@@ -325,9 +329,11 @@ html {
   line-height: normal;
   letter-spacing: 3.36px;
   transition: 0.3s;
+  margin-top: 15px;
+  margin-bottom: 29px;
 }
 
-.first-line span:hover {
+.hot span:hover {
   transition: 0.3s;
   transform: translateY(-5px);
 }
@@ -337,8 +343,13 @@ html {
   flex-direction: column;
   justify-content: center;
   gap: 23px;
-  padding-left: 64px;
+  padding-left: 33px;
   padding-right: 107px;
+}
+
+#second-line-three {
+  padding-left: 64px;
+  padding-right: 340px;
 }
 
 .second-line h3 {
@@ -363,8 +374,8 @@ html {
   display: flex;
   gap: 11px;
   align-items: center;
-  margin-top: 17px;
-  margin-bottom: 38px;
+  margin-top: 5px;
+  margin-bottom: 42px;
 }
 
 .read-more a {
@@ -394,6 +405,15 @@ html {
 }
 
 /* section four */
+
+#second-line-four {
+  padding-left: 34px;
+  padding-right: 183px;
+}
+
+#four {
+  padding-left: 33px;
+}
 .section-four {
   display: flex;
   flex-direction: column;
@@ -483,6 +503,23 @@ html {
 }
 
 /* section-five */
+
+#second-line-five {
+  padding-left: 45px;
+  padding-right: 170px;
+}
+
+#title1 {
+  padding-right: 65px;
+}
+
+#title2 {
+  padding-right: 65px;
+}
+
+#five {
+  padding-left: 45px;
+}
 
 .posts {
   display: flex;
@@ -597,7 +634,7 @@ html {
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
-  width: 680px;
+  width: 656px;
   height: 367.41px;
 }
 
@@ -651,7 +688,4 @@ html {
 
 .footer-nav img {
   transition: 0.3s;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
 }
