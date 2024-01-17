@@ -653,10 +653,3 @@ html {
   transition: 0.3s;
 }
 
-.divider {
-  max-width: 1260px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 70px;
-  margin-bottom: 40px;
-}
