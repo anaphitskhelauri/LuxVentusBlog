@@ -112,6 +112,7 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
+  padding-left: 40px;
 }
 .section-one h2 {
   color: #fff;
@@ -720,19 +721,35 @@ html {
     z-index: 100;
   }
 
+  #con {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    background-color: #4ce0d7;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+
   .navigation {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    gap: 35px;
+    gap: 25px;
   }
 
   .nav {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
     align-items: center;
     gap: 7px;
+  }
+  .nav a {
+    background-color: #4ce0d7;
+    padding: 10px 20px;
+    border-radius: 10px;
   }
 
   /* section one */
@@ -744,11 +761,11 @@ html {
     margin-top: 20px;
     background-image: url(./assets/section-one\ cover.png);
     width: auto;
-    height: 500px;
+    height: 400px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 0;
     border-radius: 20px;
   }
   .section-one h2 {
@@ -817,7 +834,7 @@ html {
   }
 
   .headline h2 {
-    margin-bottom: 48px;
+    margin-bottom: 25px;
     margin-top: 55px;
     color: #262626;
     font-family: Poppins;
@@ -844,7 +861,7 @@ html {
     border-radius: 20px;
     background: #fff;
     box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.05);
-    padding: 25px 7px 9px 7px;
+    padding: 25px 10px 12px 10px;
   }
 
   .card p {
@@ -879,7 +896,7 @@ html {
   /* section three */
   .fashion-button {
     background-image: url(./assets/section-three\ cover.png);
-    padding: auto;
+    padding: 0;
     background-repeat: no-repeat;
     background-position: center;
     height: 100px;
@@ -949,13 +966,13 @@ html {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #second-line-three {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .second-line h3 {
@@ -980,8 +997,8 @@ html {
   /* section four */
 
   #second-line-four {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #four {
@@ -1042,7 +1059,7 @@ html {
     background: #262626;
     width: auto;
     height: auto;
-    padding: 10px 30px;
+    padding: 10px 81px;
     transition: 0.3s;
   }
 
@@ -1058,7 +1075,7 @@ html {
     background: #262626;
     width: auto;
     height: auto;
-    padding: 10px 30px;
+    padding: 10px 81px;
     transition: 0.3s;
   }
   .news {
@@ -1072,16 +1089,16 @@ html {
   /* section five */
 
   #second-line-five {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   #title1 {
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
   #title2 {
-    padding-right: 10px;
+    padding-right: 20px;
   }
 
   #five {
@@ -1105,26 +1122,14 @@ html {
   .button-three a {
     width: auto;
     height: auto;
-    padding: 10px 50px;
-    font-weight: 400;
-    background: #fff;
-    color: #262626;
   }
   .button-four a {
     width: auto;
     height: auto;
-    padding: 10px 50px;
-    font-weight: 400;
-    background: #fff;
-    color: #262626;
   }
   .button-five a {
     width: auto;
     height: auto;
-    padding: 10px 50px;
-    font-weight: 400;
-    background: #fff;
-    color: #262626;
   }
   .button-three {
     background-image: url(./assets/1.png);
