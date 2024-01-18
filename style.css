@@ -24,10 +24,16 @@ html {
 .header {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 220px;
-  padding-inline: auto;
-  padding-top: 37px;
+  margin-inline: auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
 }
 
 .navigation {
@@ -39,7 +45,7 @@ html {
 
 .nav {
   display: flex;
-  gap: 65px;
+  gap: 50px;
   align-items: center;
 }
 
@@ -98,8 +104,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-left: 58px;
-  margin-top: 5px;
+  margin-inline: auto;
+  margin-top: 15px;
   background-image: url(./assets/section-one\ cover.png);
   width: 1357px;
   height: 100vh;
@@ -661,6 +667,12 @@ html {
   align-items: center;
 }
 
+.footer-logos {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
 .footer-nav h2 {
   color: #262626;
   font-family: Poppins;
@@ -688,16 +700,6 @@ html {
 
 .footer-nav img {
   transition: 0.3s;
-}
-
-.header {
-  padding: 25px;
-  background-color: #f9f9f9;
-  color: white;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100;
 }
 
 @media screen and (max-width: 600px) {
