@@ -767,6 +767,7 @@ html {
     justify-content: center;
     padding-top: 0;
     border-radius: 20px;
+    margin-inline: 10px;
   }
   .section-one h2 {
     color: #fff;
