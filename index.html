@@ -21,6 +21,14 @@
 </head>
 
 <body>
+
+  <script>
+    function burger() {
+      const menuList = document.querySelector('.nav');
+      menuList.classList.toggle('show');
+    }
+  </script>
+
   <!-- header -->
   <div class="header">
     <div class="logo">
@@ -35,6 +43,14 @@
         <a href="#">Mental Health</a>
         <a href="#contact" id="con">Contact Us</a>
       </div>
+
+      <button onclick="burger()">
+        <div class="menu">
+          <div class="burgerline"></div>
+          <div class="burgerline"></div>
+          <div class="burgerline"></div>
+        </div>
+      </button>
 
       <div class="search">
         <a href="#"><img src="./assets/search icon.png" alt="" /></a>
